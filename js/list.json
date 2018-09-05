@@ -1,0 +1,47 @@
+{
+  "total": 20,
+  "list": [
+    {
+      "name": "把命都给你了",
+      "actor": "黄海波",
+      "src": "mp3/黄海波 - 把命都给你了.mp3",
+      "poster": "resource/poster/poster.jpg"
+    },
+    {
+      "name": "嘚啵嘚啵嘚",
+      "actor": "河狸村的小伙伴",
+      "src": "mp3/河狸村的小伙伴们 - 嘚啵嘚啵嘚.mp3",
+      "poster": "resource/poster/poster.jpg"
+    },{
+      "name": "樱花草",
+      "actor": "林依婷",
+      "src": "mp3/林依婷 - 樱花草.mp3",
+      "poster": "resource/poster/poster.jpg"
+    },{
+      "name": "袖手旁观",
+      "actor": "齐秦",
+      "src": "mp3/齐秦 - 袖手旁观.mp3",
+      "poster": "resource/poster/poster.jpg"
+    },{
+      "name": "伤心的人别听慢歌",
+      "actor": "汪定中",
+      "src": "mp3/汪定中 - 伤心的人别听慢歌.mp3",
+      "poster": "resource/poster/poster.jpg"
+    },{
+      "name": "可惜我是水瓶座",
+      "actor": "杨千嬅",
+      "src": "mp3/杨千嬅 - 可惜我是水瓶座 (铃声).mp3",
+      "poster": "resource/poster/poster.jpg"
+    },{
+      "name": "月亮惹的祸",
+      "actor": "张宇",
+      "src": "mp3/周定纬 _ 张宇 - 月亮惹的祸 (Live).mp3",
+      "poster": "resource/poster/poster.jpg"
+    },{
+      "name": "Counting Stars",
+      "actor": "Runaman",
+      "src": "mp3/Runaman - Counting Stars - 副本.mp3",
+      "poster": "resource/poster/poster.jpg"
+    }
+  ]
+}

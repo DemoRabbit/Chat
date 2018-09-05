@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		
+	</style>
+	<body>
+		
+		<input type="button" name="button" id="button" value="请求" onclick="fn1()"/>
+		
+		<script type="text/javascript">
+			function fn1(){
+				var xmlhttp;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  
+  xmlhttp.onreadystatechange=function(){
+  	if (xmlhttp.readyState==4&&xmlhttp.status==200) {
+  		var res=xmlhttp.responseText;
+  		
+  		
+  	} 
+  };
+  xmlhttp.open("GET","请求.txt",true);
+  xmlhttp.send();
+			}
+			var txt = '{ "employees" : [' +
+'{ "firstName":"Bill" , "lastName":"Gates" },' +
+'{ "firstName":"George" , "lastName":"Bush" },' +
+'{ "firstName":"Thomas" , "lastName":"Carter" } ]}';
+var obj = eval ("(" + txt + ")");
+alert(obj.employees[0].firstName);
+		</script>
+	</body>
+</html>

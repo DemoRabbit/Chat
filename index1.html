@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<title>music</title>
+	</head>
+	<style type="text/css">
+		
+		*{
+			margin: 0;
+			padding: 0;
+			
+		}
+		body{
+			background: #C4E3F3;
+		}
+		.slide{
+			width: 300px;
+			height: 3px;
+			background-color: #AFD9EE;
+			cursor: pointer;
+		}
+		#progress{
+			width: 0px;
+			height: 3px;
+			background-color: #000000;
+		}
+		#progress img{
+			position: relative;
+			width: 30px;
+			height: 30px;
+			float: right;
+			bottom: 12px;
+			left: 18px;
+		}
+		.contents{
+			
+			width: 720px;
+			height: 1236px;
+			text-align: center;
+			margin: 0 auto;
+		}
+		.header{
+			width: 400px;
+			height: 60px;
+			background: #008ed4;
+			letter-spacing: 3px;
+			box-shadow: 0px 5px 9px #9b9b9b;
+		   /* margin-bottom: 3.3px;*/
+		   /* position: relative;*/
+		    position:relative;
+		    /*margin-top: -80px;*/
+		   
+		}
+	
+		#music_list{
+			height: 300px;
+			width: 1000px;
+			overflow: auto;
+			overflow-x: hidden;
+			overflow-y: ;
+		}
+		
+		.header span{
+			position: relative;
+			top: 15px;
+			font-family: "黑体";
+			font-size: 1.5em;
+		}
+		.audio{
+			box-shadow: 0 -10px 8px #31708F;
+		}
+		#list_0{
+		    background: #f0f0f0;
+		    width: 400px;
+			height: 80px;
+			border-bottom: 1px solid #ffffff;
+		}
+		
+		#list_7 .list_border{
+				position: relative;
+			    height: 0;
+			    background: white;
+		}
+		.list_border{
+			position: relative;
+			height: 1px;
+			background: #1B6D85;
+		   bottom: -57.5px;
+		}
+		.pic{
+			height: 30px;
+			width: 30px;
+			position: relative;
+			right: 15px;
+			top: 20px;
+			float: right;
+		}
+		.audio{
+			height: 90px;
+			width: 400px;
+			background: #f9f9f9;
+			position: absolute;
+		}
+		.control_1{
+			position: absolute;
+			width: 25px;
+			height: 25px;
+			right: 135px;
+			bottom: 26px;
+		}
+		.control_2{
+			position: absolute;
+			width: 20px;
+			height: 35px;
+			right: 78px;	
+			bottom: 22px;	
+		}
+		.control_3{
+			position: absolute;
+			width: 25px;
+			height: 25px;	
+			bottom: 26px;	
+			right: 20px;
+		}
+		#music_time{
+			/*background: #D0E9C6;*/
+			position: absolute;
+			top: 8px;
+			right: 18px;
+			font-size: 10px;
+			height: 8px;
+		}
+		.slide{
+			position: absolute;
+			left: 86px;
+			top: 5px;
+		}
+		#music_image{
+			position: absolute;
+			left: 8px;
+			top: 10px;
+			width: 70px;
+		}
+		#writer{
+			position: absolute;
+			bottom: 20px;
+			left: 100px;
+			font-size: smaller;
+			color: #8c8c8c;
+		}
+		#name{
+			position: absolute;
+			bottom: 40px;
+			left: 100px;
+			color: #4f4f4f;
+		}
+		
+		.music_name{
+			position: relative;
+			height: 10px;
+			left: 20px;
+			top: 20px;
+			float: left;
+			/*color: #4f4f4f;*/
+			font-family: "微软雅黑";
+			letter-spacing: 2px;
+		}
+		.music_player{
+			position: relative;
+			left: 20px;
+			top: 20px;
+			float: left;
+			font-size: 12px;
+			color: #8c8c8c;
+		}
+		.yangshi{
+			height: 79px;
+			width: 5px;
+			background: #008ed4;
+			display: none;
+			float: left;
+		}
+		::-webkit-scrollbar{
+             display:none;
+      } 
+   /*  ::-webkit-scrollbar {  width: 0px;height:8px;  background-color: #F5F5F5;border-radius: 5px;  }*/
+      
+	</style>
+	<body>
+		<div class="contents">
+			<div class="header"><span>所有音乐</span></div>
+				<div id="music_list">
+					<div class="list" id="list">
+				<div class="yangshi"></div>
+				<div id="list_">
+				<div class="list_pos"></div>
+				<img  src="img/暂停_03.png"/>
+				<span class="music_name"></span>	
+				<span class="music_player"></span>
+				<div class="list_border"></div>
+				</div>
+			</div>
+				</div>
+			<div class="audio">
+				<img id="music_image" src="img/图片_03.png"></img> 
+				<span id="name">歌曲</span>
+				<span id="writer">歌手</span>
+				<div class="slide">
+					<div id="progress"><img src="img/按钮_03.png"/></div>
+				</div>
+				<span id="music_time"></span>
+				<audio id="music"></audio>	
+				<img class="control_1" src="img/上首_07.png" onclick="shang()"/>
+				<img class="control_2"src="img/t_03.gif" onclick="zanting()"/>
+				<img class="control_3" src="img/下_09.png" onclick="xia()"/>
+			</div>
+		</div>
+	
+		
+		<script type="text/javascript" src="js/jquery_3.2.1_jquery.min.js"></script>
+		<script type="text/javascript" src="js/song.js"></script>	
+		
+	</body>
+	   
+</html>

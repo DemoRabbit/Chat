@@ -1,0 +1,208 @@
+
+.container{
+	margin: auto;
+	text-align: center;
+	width: 400px;
+	
+}
+.title{
+	padding: 1px;
+	background: dodgerblue;
+	color: #E7E7E7;
+	letter-spacing: 2px;
+	box-shadow: 1px 4px 2px #C4E3F3;
+
+	
+}
+#one{
+	background: f0f0f0;
+	padding: 1px;
+	text-align: left;
+	padding-left: 30px;
+	line-height: 1px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid #d1d1d1;
+		
+}
+#one:hover{
+	box-shadow: 5px 5px 3px #269ABC;
+}
+.list-group p{
+	font-size: smaller;
+	color: #9D9D9D;
+}
+#two{
+	background: e7e7e7;
+	padding: 1px;
+	text-align: left;
+	padding-left: 30px;
+	line-height: 1px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid #d1d1d1;
+}
+#three{
+	background: f0f0f0;
+	padding: 1px;
+	text-align: left;
+	padding-left: 30px;
+	line-height: 1px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid #d1d1d1;	
+}
+#four{
+	background: e7e7e7;
+	padding: 1px;
+	text-align: left;
+	padding-left: 30px;
+	line-height: 1px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid #d1d1d1;	
+}
+#five{
+	background: f0f0f0;
+	padding: 1px;
+	text-align: left;
+	padding-left: 30px;
+	line-height: 1px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid #d1d1d1;	
+}
+#six{
+	background: e7e7e7;
+	padding: 1px;
+	text-align: left;
+	padding-left: 30px;
+	line-height: 1px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid #d1d1d1;	
+}
+#seven{
+	background: f0f0f0;
+	padding: 1px;
+	text-align: left;
+	padding-left: 30px;
+	line-height: 1px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid #d1d1d1;	
+}
+#eight{
+	background: f0f0f0;
+	padding: 1px;
+	text-align: left;
+	padding-left: 30px;
+	line-height: 1px;
+	padding-bottom: 4px;	
+}
+.list-group h4{
+	letter-spacing: 2px;
+	font-family: "新宋体";
+	font-size: large;
+}
+.play{
+	float: right;
+	position: relative;
+	bottom: 41px;
+	padding-right: 30px;
+}
+.play img{
+	width: 24px;
+	height: 24px;
+}
+
+.control{
+	text-align: right;
+	position: relative;
+	top: 35px;
+}
+
+.music-nav{
+	position: relative;
+	height: 80px;
+	background: #CCCCCC;
+}
+#name{
+	line-height: 1px;
+	position: relative;
+	bottom: 67px;
+	text-align: left;
+	left: 80px;
+	letter-spacing: 2px;
+	width: 300px;
+}
+#name p{
+	color: #ADADAD;
+	font-size: small;
+}
+#span1{
+	position: absolute;
+	right: 135px;
+	bottom: -90px;
+}
+#span2{
+    position: absolute;
+	right: 70px;
+	bottom: -94px;
+}
+#span3{
+	position: absolute;
+	right: 17px;
+	bottom: -90px;
+}
+#slide{
+	position: absolute;
+	bottom: 64px;
+	left: 80px;
+	background: #D6E9C6;
+	width: 300px;
+	height: 3px;
+	cursor: pointer;
+}
+#progress{
+	background: #101010;
+	width: 0;
+	height: 3px;
+}
+#controller{
+	float: right;
+	position:relative;
+	bottom: 8px;
+	left: 15px;
+	width: 20px;
+	height: 20px;
+	
+}
+#music{
+	position: relative;
+	top: 80px;
+}
+.grand img{
+	position: absolute;
+	left: 10px;
+	bottom: 20px;
+	width: 50px;
+	height: 50px;
+}
+#m-time{
+	position: absolute;
+	right: 20px;
+	bottom: 25px;
+	color: #CE8483;
+}
+#m-name{
+	position: absolute;
+	left: 76px;
+	bottom: 20px;
+	letter-spacing: 2px;
+	font-family: "新宋体";
+	font-size: large;
+	margin-bottom: 7px;
+}
+#mu-name{
+	position: absolute;
+	left: 76px;
+	bottom: 10px;
+	margin-top: 4px;
+	color: #ADADAD;
+	font-size: small;
+}
+
